@@ -1,4 +1,23 @@
 ---
 label: Hero image
 hide_body: true
-fields: []
+fields:
+- name: hero_title
+  type: textarea
+  default: Hero title
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Hero Title
+- name: hero_image
+  type: file
+  config:
+    maxSize: 2
+  label: Hero Image
+- name: hero_alt_text
+  type: text
+  config:
+    required: false
+  label: Hero Alt Text
