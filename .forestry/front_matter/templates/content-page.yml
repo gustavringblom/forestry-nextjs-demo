@@ -1,4 +1,31 @@
 ---
 label: Content Page
 hide_body: false
-fields: []
+fields:
+- name: seo_title
+  type: text
+  config:
+    required: false
+  label: SEO Title
+- name: seo_image
+  type: text
+  config:
+    required: false
+  label: SEO Image
+- name: seo_description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: SEO Description
+- name: page_builder
+  type: blocks
+  template_types: []
+  config:
+    min: 
+    max: 
+  label: Page Builder
+  description: Layout the page
