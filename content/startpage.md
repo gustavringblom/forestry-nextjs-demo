@@ -8,6 +8,10 @@ page_builder:
   hero_title: Nu sänker vi räntan!
   hero_alt_text: Bild på en person
   hero_image: ''
+- template: accordion
+  accordion:
+  - accordion_content: "<h1>Vad kostar det att ta ett lån?</h1><p>Det kan man ju undra...</p>"
+    accordion_title: Vad kostar ett lån?
 
 ---
 # Vad kostar det att köpa en bostad?
