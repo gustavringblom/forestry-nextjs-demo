@@ -1,5 +1,5 @@
 ---
-label: Hero image
+label: Hero Image
 hide_body: true
 fields:
 - name: hero_title
