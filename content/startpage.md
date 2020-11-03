@@ -10,3 +10,6 @@ page_builder:
   hero_image: ''
 
 ---
+# Vad kostar det att köpa en bostad?
+
+Här listar vi de vanligaste misstagen som görs vid köp av en bostad...
