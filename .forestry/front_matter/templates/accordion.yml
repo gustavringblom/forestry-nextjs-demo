@@ -1,4 +1,26 @@
 ---
 label: Accordion
 hide_body: true
-fields: []
+fields:
+- name: accordion
+  type: field_group_list
+  fields:
+  - name: accordion_title
+    type: text
+    config:
+      required: false
+    label: Accordion Title
+  - name: accordion_content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Accordion Content
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Accordion
